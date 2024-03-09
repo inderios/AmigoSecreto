@@ -6,7 +6,7 @@ import java.util.List;
 public class TestaSistemaAmigo {
 
 
-    public static void main(String [] args){
+    public static void main(String [] args) throws AmigoJaExisteException {
 
         SistemaAmigo sistema = new SistemaAmigo();
 

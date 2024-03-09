@@ -5,7 +5,7 @@ import javax.swing.*;
 
 public class TestaSistemaAmigoGUI {
 
-    public static void main(String [] args) throws AmigoInexistenteException {
+    public static void main(String [] args) throws AmigoInexistenteException, AmigoJaExisteException {
 
         SistemaAmigo sistema = new SistemaAmigo();
 
